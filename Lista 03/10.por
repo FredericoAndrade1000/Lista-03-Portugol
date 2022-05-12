@@ -41,7 +41,7 @@ programa
 
 		escreva("\n", "Média de altura dos atletas do sexto masculino: ", mediaAlturaHomens / contadorHomens, "\n")
 		escreva("Média de altura das atletas do sexo feminino: ", mediaAlturaMulheres / contadorMulheres, "\n")
-		escreva("Média de idade de todos atletas: ", mediaIdade / contadorHomens + contadorMulheres, "\n")
+		escreva("Média de idade de todos atletas: ", mediaIdade / (contadorHomens + contadorMulheres), "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -49,7 +49,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 701; 
+ * @POSICAO-CURSOR = 1207; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
